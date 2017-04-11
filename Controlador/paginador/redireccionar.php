@@ -24,7 +24,23 @@ if ($_SESSION['pagina']=='chat')
 //include("archivoDeModelo");
 $result = mysqli_query($conectador, "select correo, fecha_mensaje, contenido_mensaje from mensaje;"); 
 }
+if ($_SESSION['pagina']=='mensaje envio codigo')
+{
+//include("archivoDeModelo");
+}
 if ($_SESSION['pagina']=='mensaje error registro usuario')
+{
+//include("archivoDeModelo");
+}
+if ($_SESSION['pagina']=='mensaje error validacion')
+{
+//include("archivoDeModelo");
+}
+if ($_SESSION['pagina']=='mensaje validacion correcta')
+{
+//include("archivoDeModelo");
+}
+if ($_SESSION['pagina']=='mensaje error envio codigo')
 {
 //include("archivoDeModelo");
 }
