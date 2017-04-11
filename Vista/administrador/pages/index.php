@@ -163,6 +163,22 @@ if ($_SESSION['pagina']=='mensaje error registro usuario')
 {
 include("mensajeErrorRegUs.php");
 }
+if ($_SESSION['pagina']=='mensaje envio codigo')
+{
+include("mensajeEnvioCod.php");
+}
+if ($_SESSION['pagina']=='mensaje error validacion')
+{
+include("mensajeErrorValid.php");
+}
+if ($_SESSION['pagina']=='mensaje validacion correcta')
+{
+include("mensajeValid.php");
+}
+if ($_SESSION['pagina']=='mensaje error envio codigo')
+{
+include("mensajeErrorEnvioCod.php");
+}
 
 }
 ?>
