@@ -13,7 +13,7 @@ include("../../../Modelo/conectadorSQL.php");
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Panel de usuario AudiSoft</title>
+    <title>Panel de usuario</title>
     <link rel="shortcut icon" href="../images/favicon.png">
     <!-- Bootstrap Core CSS -->
     <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -52,7 +52,7 @@ include("../../../Modelo/conectadorSQL.php");
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Panel de usuario Don Pelota</a>
+                <a class="navbar-brand" href="#">Panel de usuario</a>
             </div>
             <!-- /.navbar-header -->
             <ul class="nav navbar-top-links navbar-right">
@@ -177,18 +177,6 @@ if ($_SESSION['pagina']=='interfaz principal de usuario')
 {
 include("PanelAdmin.php");
 }
-if ($_SESSION['pagina']=='equipos')
-{
-include("equipos.php");
-}
-if ($_SESSION['pagina']=='jugadores')
-{
-include("jugadores.php");
-}
-if ($_SESSION['pagina']=='fixtures')
-{
-include("fixtures.php");
-}
 if ($_SESSION['pagina']=='chat')
 {
 include("chat.php");
@@ -196,62 +184,6 @@ include("chat.php");
 if ($_SESSION['pagina']=='ayuda')
 {
 include("ayuda.php");
-}
-if ($_SESSION['pagina']=='registro de equipo')
-{
-include("registroEquipo.php");
-}
-if ($_SESSION['pagina']=='modificacion de equipo')
-{
-include("modificarEquipo.php");
-}
-if ($_SESSION['pagina']=='modificacion de jugador')
-{
-include("modificarJugador.php");
-}
-if ($_SESSION['pagina']=='registro de jugador')
-{
-include("registroJugador.php");
-}
-if ($_SESSION['pagina']=='registro de fixture')
-{
-include("registroFixture.php");
-}
-if ($_SESSION['pagina']=='eliminacionEquipoValidada')
-{
-include("eliminacionEquipoValidada.php");
-}
-if ($_SESSION['pagina']=='eliminacion Jugador Validada')
-{
-include("eliminacionJugadorValidada.php");
-}
-if ($_SESSION['pagina']=='eliminacion Fixture Validada')
-{
-include("eliminacionFixtureValidada.php");
-}
-if ($_SESSION['pagina']=='modificacion equipo validada')
-{
-include("modificacionEquipoValidada.php");
-}
-if ($_SESSION['pagina']=='modificacion jugador validada')
-{
-include("modificacionJugadorValidada.php");
-}
-if ($_SESSION['pagina']=='modificacion fixture_partidos validada')
-{
-include("modificacionFixturePartidosValidada.php");
-}
-if ($_SESSION['pagina']=='registro equipo validada')
-{
-include("registroEquipoValidada.php");
-}
-if ($_SESSION['pagina']=='registro jugador validada')
-{
-include("registroJugadorValidada.php");
-}
-if ($_SESSION['pagina']=='editor fixture')
-{
-include("partidos.php");
 }
 if ($_SESSION['pagina']=='mensaje validado')
 {
